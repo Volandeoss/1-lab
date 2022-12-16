@@ -24,7 +24,7 @@ namespace WindowsFormsApp1
             int a = int.Parse(textBox1.Text);
             int b = int.Parse(textBox2.Text);
             int h = int.Parse(textBox3.Text);
-            int result=((a + b) / 2) * h;
+            int result= 12 + ((a + b) / 2) * h;
             label4.Text= Convert.ToString(result);
         }
 
